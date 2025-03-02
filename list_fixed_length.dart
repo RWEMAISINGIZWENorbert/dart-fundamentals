@@ -7,6 +7,8 @@ void main(){
      numberList[3] = 4;
      numberList[4] = 5;
 
+     numberList.removeAt(1);
+
      	numberList[0] = 99;  // Update operation
 	    // numberList[1] = null;// Delete operation
       print(numberList[0]);

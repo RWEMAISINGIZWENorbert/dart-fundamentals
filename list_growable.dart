@@ -3,7 +3,8 @@ void main(){
    List<String> countries = ['Rwanda', 'Burundi', 'Tanzania'];
    
    countries.add("Kenya");
-   countries.add('Rwanda');
+  //  countries.add('Rwanda');
+   countries.removeAt(1);
 
 
    List<int> numbersList = List<int>.empty(growable: true); // Growable List: METHOD 2
